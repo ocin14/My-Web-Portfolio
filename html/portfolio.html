@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <script src="https://kit.fontawesome.com/f2d45acb0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="../html/img/NICO.svg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span> Nico </span>Lee N.H</h1>
+             </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                    <img src="../html/img/IMG20230318122043.jpg" width="45%">
+                
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Halo, Saya Nico Lee Nathanael Handoko. Saya biasa dipanggil Nico. Saya berdomisili di <a href="https://maps.app.goo.gl/Hi3nmiLcBnwKK25P8" style="text-decoration: none; color:#ded2d2;">Jl. Danau Gita C4F8, kel. Lesanpuro, Kota Malang, Jawa Timur</a>, sekaligus tetangga salah satu guru di SMK Telkom Malang yaitu Muhammad Chusni Agus, M.Pd. atau biasa dipanggil Pak Chusni</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('school')">School</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>HyperText Markup Language is a language that uses markup or markers to create web pages.</li><br>
+                            <li><span>Java</span><br>An object-oriented programming language used for coding mobile, desktop and website applications.</li><br>
+                            <li><span>Laravel</span><br>An open-source PHP framework used in the website development process.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="school">
+                        <ul>
+                            <li><span>2013 - 2019 <br><a href="https://www.sdkmardiwiyata2.sch.id/#"style= "text-decoration: none; color:#b54769;">SDK Mardi Wiyata 2</span></a><br>Saya telah menyelesaikan pendidikan di SDK Mardi Wiyata 2 pada tahun 2019</li><br>
+                            <li><span>2019 - 2022 <br><a href="https://smpn21-mlg.sch.id/" style= "text-decoration: none; color:#b54769;">SMPN 21 Malang</span></a><br></a>Saya telah menyelesaikan pendidikan di SMPN 21 Malang pada tahun 2022</li>
+                            <br>
+                            <li><span>2022 - 2025<br><a href="https://www.smktelkom-mlg.sch.id/" style= "text-decoration: none; color:#b54769;">SMK Telkom Malang </span></a><br>Sekarang Saya sedang melanjutkan pendidikan di SMK Telkom Malang pada tahun 2022 - sekarang</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+                <div class="container">
+                    <h1 class="sub-title">Project</h1>
+                    <div class="proj-list">
+                        <div class="proj">
+                            <img src="../html/img/Screenshot 2023-11-09 193619.png">
+                            <div class="layerr">
+                                <h3>My Web Portfolio</h3>
+                                <p>Web Portfolio ini menggunakan bahasa HTML, CSS </p>
+                                <a href=""><i class="fa-solid fa-up-right-from-square fa-bounce" style="color: #f5f2ef;"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj">
+                            <img src="../html/img/Screenshot 2023-11-09 200842.png">
+                            <div class="layerr">
+                                <h3>Online Shop</h3>
+                                <p>Web Online Shop ini menggunakan bahasa PHP</p>
+                                <a href=""><i class="fa-solid fa-up-right-from-square fa-bounce" style="color: #f5f2ef;"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj">
+                            <img src="../html/img/Screenshot 2023-11-09 202009.png">
+                            <div class="layerr">
+                                <h3>Online Library</h3>
+                                <p>Web Online Library ini juga menggunakan bahasa php</p>
+                                <a href=""><i class="fa-solid fa-up-right-from-square fa-bounce" style="color: #f5f2ef;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+    </div>
+
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-title">Certificate</h1>
+            <div class="cert-list">
+                <div class="cert">
+                    <img src="../html/img/Screenshot 2023-11-03 225156.png"  height="100%">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="cert">
+                    <img src="../html/img/Screenshot 2023-11-03 225224.png">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>new.nikolee2007@gmail.com</p>
+                    
+                    <p><i class="fa-solid fa-phone"></i>081555992978</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100084859652922"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/LeeNh186723"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/nicoleenathanaelh/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="../html/img/Minimalist White and Grey Professional Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Made <i class="fa-solid fa-heart"></i> by Nico</p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-- <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script> -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzuGhaOlyklqKDl7IhShfVhwNCUomEMm4HFfK3DquteVlMIfuN_5IF8ak1DsPYrqvJ6hg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
